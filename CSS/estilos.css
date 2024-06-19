@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@400;700&display=swap');
+
+
+
+
+body {
+    background-image: linear-gradient(antiquewhite, #ffd58f);
+    color: #7f1109;
+}
+
+header {
+    width: 100%;
+    background-color: #f09400;
+    height: 20px;
+}
+
+#miAvatar{
+    width: 478px;
+    height: 418px;
+    margin: auto;
+    background-image: url(../AVATAR_ICONO/avatar.png);
+    animation-name: animacion;  
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; animation-timing-function: steps(2);  
+
+}
+
+@keyframes animacion {
+0% { background-position: 0px 0px;}
+100% { background-position: -4780px 0px;}
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #e85105;
+    font-weight: 900;
+    font-family: Playfair Display;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 5px auto;
+}
+
+
+ul {
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-bottom: 30px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.miBoton {
+    text-decoration: none;
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 30px;
+    color: antiquewhite;
+    background-color: #7f1109;
+    margin: auto;
+    width: 208px;
+    line-height: 30 px;
+    text-align: center;
+    transition-property: background-color, transform;
+    transition-duration: 1s, 500ms;
+    border-radius: 10px;
+
+}
+
+.miBoton:hover {
+    background-color: #f09400;
+    transform: scale(2, 2);
+
+}
+
+
+
+.imagenes {
+    width: 30%;
+}
+
+#itinerario{
+    width: 65%;
+}
+
+img, video {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+
+#video {
+
+    width: 95%;
+    margin: 20px 40px;
+}
+
+
+
+#contenedorVideo{
+    width: 100%;
+    background-color: #f8ecdb;
+    background-size: 100%, 300px;
+    border-radius: 10px;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    width: 85%;
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+
+footer {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #f09400;
+    height: 22px;
+
+}
+
+h6 {
+    color: antiquewhite;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+}
+
+#miFinal {
+    text-align: center;
+    color: #e85105;
+    font-weight: 900;
+    font-family: Playfair Display;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
